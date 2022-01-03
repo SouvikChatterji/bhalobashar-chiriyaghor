@@ -63,10 +63,7 @@ var swiper = new Swiper(".box-slider", {
       el: ".swiper-pagination",
       type: "fraction",
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+    
   spaceBetween: 10,
   grabCursor: true,
   loop: true,

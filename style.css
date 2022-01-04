@@ -255,7 +255,7 @@ section{
 }
 /*end about*/
 /*menu*/
-/*.menu .box-slider{
+.menu .box-slider{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 1.5rem;
@@ -264,29 +264,32 @@ section{
     padding: 5rem;
     text-align: center;
     border: var(--border);
+background-color: #fff;
+/*width: 107.5rem;
+height: 50rem;*/
 }
 .menu .box-slider .box img{
-    height: 10rem;
+    height: 16rem;
 }
 .menu .box-slider .box h3{
-    color: #fff;
-    font-size: 2rem;
+    color: #000;
+    font-size: 5rem;
     padding: 1rem 0;
 }
 .menu .box-slider .box .price{
-    color: #fff;
-    font-size: 2.5rem;
-    font-size:.5rem 0;
+    color: #000;
+    font-size: 3rem;
+     
 }
-.menu .box-slider .box .price span{
+/*.menu .box-slider .box .price span{
     font-size: 1.5rem;
     text-decoration: line-through;
     font-weight: lighter;
 }
-.menu .box-slider .box:hover{
+/*.menu .box-slider .box:hover{
     background: #fff;
 }
-.menu .box-slider .box:hover > *{
+/*.menu .box-slider .box:hover > *{
     color: var(--black);
 }
 /*end menu*/
@@ -606,5 +609,19 @@ section{
       margin-right: 5rem;
       padding: 10rem;
     }
-    
+    .menu .box-slider .box{
+      width: 107.5rem;
+      height: 50rem;
+    }
+    .menu .box-slider .box h3{
+      padding-top: 5rem;
+      text-decoration: underline;
+    }
+    .menu .box-slider .box .price{
+      font-size: 4.5rem;
+      padding-top: 2rem;
+    }
+    .menu .box-slider .box img{
+      height: 20rem;
+    }
 }
